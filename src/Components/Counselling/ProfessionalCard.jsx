@@ -1,4 +1,4 @@
-//Displays all Professionals with image
+//Displays Professional with image- card format
 
 
 import { useNavigate } from 'react-router-dom';
