@@ -24,6 +24,7 @@ import Community from "./Components/Community/CommunityPage";
 import Aboutus from "./Components/Aboutus/Aboutus";
 import Games from "./Components/Games/Games";
 import Counselling from "./Components/Counselling/Counselling";
+import ProfessionalCard from "./Components/Counselling/ProfessionalCard";
 import ScrollToTop from "./Components/ScrollToTop";
 
 import Journal from "./Components/Journal/Journal";
@@ -117,7 +118,7 @@ function App() {
 
                 <Route path="/counselling" element={<Counselling />} />
                 <Route path="/Counselling/:id" element={<Prof_page />} />
-
+                <Route path="/professional-card" element={<ProfessionalCard />} />
                 <Route path="/games" element={<Games />} />
                 <Route path="/maingame" element={<MainGame />} />
                 <Route path="/dashboard" element={<Dashboard />} />
